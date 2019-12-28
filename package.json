@@ -1,0 +1,35 @@
+{
+  "name": "meta-store-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattzuzolo/meta-store-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattzuzolo/meta-store-back/issues"
+  },
+  "homepage": "https://github.com/mattzuzolo/meta-store-back#readme",
+  "dependencies": {
+    "@koa/router": "^8.0.5",
+    "eslint-config-airbnb": "^18.0.1",
+    "koa": "^2.11.0",
+    "koa-json": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  }
+}
